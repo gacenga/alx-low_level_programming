@@ -16,7 +16,7 @@ if (firstSet < secondSet)
 {
 putchar(firstSet);
 putchar(secondSet);
-if (firstSet != '8' && secondSet != '9')
+if (firstSet != '8' || secondSet != '9')
 {
 putchar(',');
 putchar(' ');
