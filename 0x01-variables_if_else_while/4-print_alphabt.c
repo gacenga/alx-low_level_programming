@@ -7,8 +7,12 @@
 int main(void)
 {
 char lower_case = 'a';
-while (lower_case <= 'z' && lower_case != 'q' && lower_case != 'e')
+while (lower_case <= 'z')
 {
+if (lower_case == 'q' || lower_case == 'e')
+{
+continue;
+}
 putchar(lower_case);
 lower_case++;
 }
