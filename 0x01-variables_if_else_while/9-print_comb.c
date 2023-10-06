@@ -10,8 +10,11 @@ int myNumber;
 for (myNumber = '0'; myNumber <= '9'; myNumber++)
 {
 putchar(myNumber);
+if (myNumber != '9')
+{
 putchar(',');
 putchar(' ');
+}
 }
 putchar('\n');
 return (0);
