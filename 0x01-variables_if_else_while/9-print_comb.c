@@ -7,7 +7,7 @@
 int main(void)
 {
 int myNumber;
-for (myNumber = 0; myNumber <= 99; myNumber++)
+for (myNumber = 0; myNumber <= 9; myNumber++)
 {
 putchar(myNumber);
 putchar(',');
