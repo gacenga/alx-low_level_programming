@@ -8,17 +8,17 @@ int main(void)
 {
 int three;
 int four;
-for (three = 0; three <= 100 ; three++)
+for (three = 0; three <= 99 ; three++)
 {
-for (four = 0; four <= 100 ; four++)
+for (four = three; four <= 99 ; four++)
 {
 if (three < four)
 {
-putchar((three / 10) + 48);
-putchar((four % 10) + 48);
+putchar(three / 10 + '0');
+putchar(four % 10 + '0');
 putchar(' ');
-putchar((three / 10) + 48);
-putchar((four % 10) + 48);
+putchar(three / 10 + '0');
+putchar(four % 10 + '0');
 if (three != 98 || four != 99)
 {
 putchar(',');
