@@ -15,9 +15,9 @@ for (four = three; four <= 99 ; four++)
 if (three < four)
 {
 putchar(three / 10 + '0');
-putchar(four % 10 + '0');
+putchar(three % 10 + '0');
 putchar(' ');
-putchar(three / 10 + '0');
+putchar(four / 10 + '0');
 putchar(four % 10 + '0');
 if (three != 98 || four != 99)
 {
