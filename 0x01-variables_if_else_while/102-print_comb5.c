@@ -6,29 +6,21 @@
 */
 int main(void)
 {
-int one;
-int two;
 int three;
 int four;
-for (one = '0'; one <= '9'; one++)
+for (three = 0; three <= 100 ; three++)
 {
-for (two = '0'; two <= '9'; two++)
+for (four = 0; four <= 100 ; four++)
 {
-for (three = '0'; three <= '9'; three++)
-{
-for (four = '0'; four <= '9'; four++)
-{
-putchar(one);
-putchar(two);
+putchar(three / 10 + '0');
+putchar(four % 10 + '0');
 putchar(' ');
-putchar(three);
-putchar(four);
-if (one != '9' || two != '8' || three != '9' || four != '9')
+putchar(three / 10 + '0');
+putchar(four % 10 + '0');
+if (three != 98 || four != 99)
 {
 putchar(',');
 putchar(' ');
-}
-}
 }
 }
 }
