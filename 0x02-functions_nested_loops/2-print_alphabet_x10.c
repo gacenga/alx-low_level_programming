@@ -26,6 +26,6 @@ _putchar(myChar);
 myChar++;
 }
 myInteger++;
-_putchar('\n');
 }
+_putchar('\n');
 }
