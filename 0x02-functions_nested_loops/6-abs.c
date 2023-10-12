@@ -1,15 +1,5 @@
 #include "main.h"
 /**
-* main - checks for alphabet character
-*
-* Return: 0 Always
-*/
-int main(void)
-{
-int _abs(int s);
-return (0);
-}
-/**
 * _abs - checks for alphabet character
 *
 * @s:character being checked
