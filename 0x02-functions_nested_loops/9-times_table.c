@@ -8,15 +8,17 @@ void times_table(void)
 {
 int a = 0;
 int b = 0;
+int c = a * b;
 while (a <= 9)
 {
-while (b <= '9')
+while (b <= 9)
 {
-_putchar((a * b) + '0');
+_putchar(c + '0');
 _putchar(',');
 _putchar(' ');
 b++;
 }
+_putchar('\n');
 a++;
 b = 0;
 }
