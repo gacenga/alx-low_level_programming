@@ -19,5 +19,6 @@ else if (s < 0)
 s = -s;
 a = s % 10;
 }
+_putchar(a + '0');
 return (a);
 }
