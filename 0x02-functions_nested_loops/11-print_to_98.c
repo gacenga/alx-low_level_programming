@@ -10,17 +10,32 @@ void print_to_98(int n)
 {
 int x = n / 10;
 int y = n % 10;
-if (x <= '9' || y <= '8')
+if (n < 98)
 {
-while (x <= '9')
+while (n < 98)
 {
-while ((y <= '8' && x == '9') || (y <= '9' && x != '9'))
-{
-_putchar(x);
-_putchar(y);
+_putchar(x + '0');
+_putchar(y + '0');
 _putchar(',');
 _putchar(' ');
+n++;
 }
 }
+else if (n == 98)
+{
+_putchar(x + '0');
+_putchar(y + '0');
 }
+else if (n > 98)
+{
+while (n > 98)
+{
+_putchar(x + '0');
+_putchar(y + '0');
+_putchar(',');
+_putchar(' ');
+n--;
+}
+}
+_putchar('\n');
 }
