@@ -1,14 +1,5 @@
 #include "main.h"
 /**
-* main - checks for lowercase character
-* Return: 0 Always (Success)
-*/
-int main(void)
-{
-int _islower(int c);
-return (0);
-}
-/**
 * _islower - checks for lowercase character
 *
 * Parameters:
