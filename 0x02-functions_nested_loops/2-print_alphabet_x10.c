@@ -13,9 +13,9 @@ while (myInteger <= '9')
 while (myChar <= 'z')
 {
 _putchar(myChar);
-_putchar('\n');  
 myChar++;
 }
+_putchar('\n');
 myInteger++;
 }
 }
