@@ -15,6 +15,12 @@ while (b <= 9)
 int c = a * b;
 if ((c == 0 || c < 10) && b != 9)
 {
+if ((a >= 5 && b == 1) || (a == 4 && b == 2) || (a == 3 && b ==3) || (a == 2 && b == 4)
+{
+_putchar(c + '0');
+_putchar(',');
+_putchar(' ');
+}
 _putchar(c + '0');
 _putchar(',');
 _putchar(' ');
