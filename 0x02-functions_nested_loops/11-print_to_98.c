@@ -1,15 +1,5 @@
 #include "main.h"
 /**
-* main - prints all natural numbers from n to 98, followed by a new line
-*
-* Return: 0 Always
-*/
-int main(void)
-{
-void print_to_98(int n);
-return (0);
-}
-/**
 * print_to_98 - prints all natural numbers from n to 98, followed by a new line
 *
 * @n:number passed to function
