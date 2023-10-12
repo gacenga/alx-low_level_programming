@@ -6,13 +6,17 @@
 */
 void times_table(void)
 {
-int a = '0';
-while (a <= '9')
+int a = 0;
+int b = 0;
+while (a <= 9)
 {
-_putchar(a);
-_putchar('x');
-_putchar('9');
-_putchar('=');
-_putchar(a * '9');
+while (b <= '9')
+{
+_putchar(a * b);
+_putchar(',');
+_putchar(' ');
+b++;
 }
+a++;
+b = 0;
 }
