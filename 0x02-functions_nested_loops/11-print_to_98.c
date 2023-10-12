@@ -8,6 +8,9 @@
 */
 void print_to_98(int n)
 {
+int x;
+int y;
+int z;
 if (n == 98)
 {
 x = n / 10;
@@ -39,5 +42,4 @@ _putchar(',');
 _putchar(' ');
 }
 }
-return (0);
 }
