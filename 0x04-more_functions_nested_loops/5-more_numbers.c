@@ -17,6 +17,7 @@ _putchar('1');
 _putchar(c % 10 + '0');
 c++;
 }
+_putchar('\n');
 c = '0';
 x++;
 }
