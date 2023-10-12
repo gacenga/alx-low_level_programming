@@ -6,8 +6,8 @@
 */
 void more_numbers(void)
 {
-char c = 0;
-char x = 0;
+char c = '0';
+char x = '0';
 char y;
 while (x <= '9')
 {
@@ -19,6 +19,7 @@ _putchar('1');
 _putchar(y + '0');
 c++;
 }
-c = 0;
+c = '0';
+x++;
 }
 }
