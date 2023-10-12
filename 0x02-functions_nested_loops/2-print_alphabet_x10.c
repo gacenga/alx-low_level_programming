@@ -7,15 +7,15 @@
 void print_alphabet_x10(void)
 {
 char myChar = 'a';
-int myInteger = 0;
-while (myInteger <= 9)
+int myInteger = '0';
+while (myInteger <= '9')
 {
 while (myChar <= 'z')
 {
 _putchar(myChar);
+_putchar('\n');  
 myChar++;
 }
 myInteger++;
 }
-_putchar('\n');
 }
