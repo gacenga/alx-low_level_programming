@@ -12,7 +12,7 @@ while (a <= 9)
 {
 while (b <= '9')
 {
-_putchar(a * b);
+_putchar((a * b) + '0');
 _putchar(',');
 _putchar(' ');
 b++;
