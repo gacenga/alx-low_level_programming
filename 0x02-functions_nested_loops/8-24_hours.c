@@ -1,14 +1,5 @@
 #include "main.h"
 /**
-* main - prints minutes of the day
-* Return: 0 Always (Success)
-*/
-int main(void)
-{
-void jack_bauer(void);
-return (0);
-}
-/**
 * jack_bauer - prints minutes of the day
 *
 * Return: 0 Always
