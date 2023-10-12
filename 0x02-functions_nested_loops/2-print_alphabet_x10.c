@@ -16,6 +16,7 @@ _putchar(myChar);
 myChar++;
 }
 _putchar('\n');
+myChar = 'a';
 myInteger++;
 }
 }
