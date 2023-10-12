@@ -21,10 +21,13 @@ _putchar(c + '0');
 _putchar(',');
 _putchar(' ');
 }
+else 
+{
 _putchar(c + '0');
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
+}
 }
 else if ((c == 0 || c < 10) && b == 9)
 {
