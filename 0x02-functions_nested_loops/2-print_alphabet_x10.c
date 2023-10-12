@@ -7,8 +7,8 @@
 void print_alphabet_x10(void)
 {
 char myChar = 'a';
-int myInteger = '0';
-while (myInteger <= '9')
+int myInteger = 0;
+while (myInteger < 10)
 {
 while (myChar <= 'z')
 {
