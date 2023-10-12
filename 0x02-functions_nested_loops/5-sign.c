@@ -1,15 +1,5 @@
 #include "main.h"
 /**
-* main - prints the sign of a number
-*
-* Return: 0 Always (Success)
-*/
-int main(void)
-{
-int print_sign(int n);
-return (0);
-}
-/**
 * print_sign - prints the sign of a number
 *
 * @n: is character to be checked
