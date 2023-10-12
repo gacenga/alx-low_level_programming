@@ -10,6 +10,7 @@ void print_to_98(int n)
 {
 int x = n / 10;
 int y = n % 10;
+int z = n / 100;
 if (n < 98)
 {
 while (n < 98)
@@ -30,6 +31,7 @@ else if (n > 98)
 {
 while (n > 98)
 {
+_putchar(z + '0');
 _putchar(x + '0');
 _putchar(y + '0');
 _putchar(',');
