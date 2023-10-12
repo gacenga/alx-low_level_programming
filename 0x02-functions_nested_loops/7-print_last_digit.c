@@ -1,13 +1,5 @@
 #include "main.h"
-/**
-* main - prints the last digit of a number
-* Return: 0 Always (Success)
-*/
-int main(void)
-{
-int print_last_digit(int s);
-return (0);
-}
+
 /**
 * print_last_digit - prints the last digit of a number
 *
