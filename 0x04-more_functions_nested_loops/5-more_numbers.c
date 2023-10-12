@@ -6,9 +6,9 @@
 */
 void more_numbers(void)
 {
-char c = '0';
-char x = '0';
-while (x <= '9')
+char c = 0;
+char x = 0;
+while (x <= 9)
 {
 while (c <= 14)
 {
@@ -18,7 +18,7 @@ _putchar(c % 10 + '0');
 c++;
 }
 _putchar('\n');
-c = '0';
+c = 0;
 x++;
 }
 }
