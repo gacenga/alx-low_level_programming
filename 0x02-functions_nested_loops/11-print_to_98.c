@@ -8,36 +8,36 @@
 */
 void print_to_98(int n)
 {
-int x = n / 10;
-int y = n % 10;
-int z = n / 100;
-if (n < 98)
+if (n == 98)
 {
-while (n < 98)
-{
-_putchar(x + '0');
-_putchar(y + '0');
-_putchar(',');
-_putchar(' ');
-n++;
-}
-}
-else if (n == 98)
-{
-_putchar(x + '0');
-_putchar(y + '0');
+x = n / 10;
+y = n % 10;
+_putchar(x);
+_putchar(y);
 }
 else if (n > 98)
 {
-while (n > 98)
+z = n / 100;
+x = n / 10;
+y = n % 10;
+while (n >= 98)
 {
-_putchar(z + '0');
-_putchar(x + '0');
-_putchar(y + '0');
+_putchar(z);
+_putchar(x);
+_putchar(y);
 _putchar(',');
 _putchar(' ');
-n--;
 }
 }
-_putchar('\n');
+else if (n < 98)
+{
+while (n <= 98)
+{
+_putchar(x);
+_putchar(y);
+_putchar(',');
+_putchar(' ');
+}
+}
+return (0);
 }
