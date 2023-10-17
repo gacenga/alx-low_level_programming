@@ -1,0 +1,16 @@
+/**
+* _strlen - returns the length of a string
+*
+* @s:input
+* Return: 0
+*/
+int _strlen(char *s)
+{
+int m = 0;
+while (*s != '\0')
+{
+m++;
+s++;
+}
+return (m);
+}
