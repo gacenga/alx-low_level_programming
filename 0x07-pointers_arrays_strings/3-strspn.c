@@ -1,0 +1,31 @@
+#include "main.h"
+/**
+* _strspn - gets the length of a prefix substring
+* @s:input
+* @accept:input
+* Return:number of bytes in the initial segment of s
+*/
+unsigned int _strspn(char *s, char *accept)
+{
+unsigned int i = 0;
+int j;
+while (*s)
+{
+int found = 0;
+for (j = 0; accept[j]; j++)
+{
+if (*s == accept[j])
+found = 1;
+}
+if (found)
+{
+i++;
+}
+else
+{
+break;
+}
+s++;
+}
+return (i);
+}
