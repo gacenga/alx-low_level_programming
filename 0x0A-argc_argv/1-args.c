@@ -7,9 +7,9 @@
 * @argc:argument
 * Return:0 Always
 */
-int main(int argc, char *argv[])		
+int main(int argc, char *argv[])
 {
-(void) argv;
+(void) argv;/*Ignore argv*/
 printf("%d\n", argc - 1);
-return (0);		
+return (0);
 }
