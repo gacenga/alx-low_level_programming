@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include "main.h"
+/**
+* main - prints all arguments
+*
+* @argv:arguments
+* @argc:arguments
+* Return:0 Always
+*/
+int main(int argc, char *argv[])
+{
+int i = 0;
+while (i < argc)
+{
+putchar(argv[i]);
+putchar('\n');
+i++;
+}
+return (0);
+}
