@@ -19,11 +19,11 @@ if (ptr == NULL)
 return (NULL);
 for (i = 0; i < height; i++)
 {
-ptr[i] = malloc(sizeof(int *) * width);
+ptr[i] = malloc(sizeof(int) * width);
 if (ptr[i] == NULL)
 {
-for (; i >= 0; i--)
-free(ptr[i]);
+for (j = 0; j >= 0; j--)
+free(ptr[j]);
 free(ptr);
 return (NULL);
 }
