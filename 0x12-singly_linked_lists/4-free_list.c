@@ -15,6 +15,7 @@ list_t *start = head;
 while (start != NULL)
 {
 more = start->next;
+free(start->str);
 free(start);
 start = more;
 }
