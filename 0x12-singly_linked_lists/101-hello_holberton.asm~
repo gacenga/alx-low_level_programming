@@ -1,0 +1,15 @@
+section .data
+    hello db "Hello, Holberton", 0
+
+section .text
+    global main
+
+    extern printf
+    section .text
+main:
+    mov rdi, hello      ; Format string
+    mov rax, 0          ; Clear RAX register (no vector registers used)
+    call printf         ; Call printf
+    mov rax, 60         ; syscall: exit
+    xor rdi, rdi        ; status: 0
+    syscall
