@@ -1,0 +1,23 @@
+#include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+/**
+* sum_listint - returns the sum of all the data
+*
+* @head:pointer
+* Return:sum of all the data
+*/
+int sum_listint(listint_t *head)
+{
+int j = 0;
+listint_t *k = head;
+if (*head == NULL || head == NULL)
+return (0);
+while (k)
+{
+j += k->n;
+k = k->next;
+}
+return (j);
+}
