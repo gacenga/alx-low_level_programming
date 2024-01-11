@@ -16,18 +16,23 @@ dlistint_t *prev;
 dlistint_t *new;
 unsigned int i = 0;
 current = *h;
+if (current == NULL)
+{
+return (NULL);
+}
 new = malloc(sizeof(dlistint_t));
 if (new == NULL)
 {
 return (NULL);
 }
+if (idx == 0)
+{
+new = add_dnodeint(h, n);
+return (new);
+}
 new->n = n;
 new->next = NULL;
 new->prev = NULL;
-if (current == NULL)
-{
-return (NULL);
-}
 while (current != NULL && i < idx)
 {
 prev = current;
@@ -38,11 +43,15 @@ if (i == idx)
 {
 prev->next = new;
 new->prev = prev;
+if (current)
+{
 current->prev = new;
 new->next = current;
 }
+}
 else
 {
+free(new);
 return (NULL);
 }
 return (new);
