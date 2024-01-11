@@ -25,7 +25,7 @@ return (NULL);
 }
 if (idx == 0)
 {
-add_dnodeint(h, n);
+return (add_dnodeint(h, n));
 }
 new->n = n;
 new->next = NULL;
