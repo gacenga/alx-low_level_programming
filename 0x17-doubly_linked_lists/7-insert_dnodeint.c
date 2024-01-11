@@ -24,6 +24,10 @@ return (NULL);
 new->n = n;
 new->next = NULL;
 new->prev = NULL;
+if (current == NULL)
+{
+return (NULL);
+}
 while (current != NULL && i < idx)
 {
 prev = current;
