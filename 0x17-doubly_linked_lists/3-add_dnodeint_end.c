@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* add_dnodeint_end - adds a new node at the end 
+* add_dnodeint_end - adds a new node at the end
 *
 * @head:pointer to pointer
 * @n:data
