@@ -4,6 +4,7 @@ An island in 2D that we have to get its perimeter
 
 """
 
+
 def island_perimeter(grid):
     """
     Gets the perimeter of a 2D island defined by a grid
@@ -27,4 +28,4 @@ def island_perimeter(grid):
                     edge += 1
                 if (i > 0 and grid[i - 1][j] == 1):
                     edge += 1
-    return size *4 - edge * 2
+    return size * 4 - edge * 2
